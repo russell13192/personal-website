@@ -13,4 +13,34 @@
 	background-color: #000;
     color: #000;
     -webkit-filter: grayscale(100%);
+/*	-webkit-filter: brightness(70%);*/
+	display: inline-block;
+}
+.nav-container {
+	background: transparent;
+}
+.navbar-rightside {
+	float: right;
+	margin-right: 5rem;
+	margin-top: 1.5em;
+}
+.nav-right {
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	-webkit-filter: brightness(120%) !important;
+	font-family: 'Raleway', sans-serif;
+	margin-right: 1.5em;
+}
+ #image-container {
+    margin: auto;
+    width: 50%;
+
+    padding: 10px;
+ 	width: 440px;
+ 	max-width: 440px;
+ }
+.profile-img {
+	 max-width: 440px;
+	 border-radius: 60%;
 }

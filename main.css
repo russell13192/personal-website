@@ -27,6 +27,9 @@ Enjoy responsibly!
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    margin: 0 !important;
+}
 p {
     line-height: 1.33em;
     color: #7E7E7E;
@@ -125,8 +128,9 @@ h1 {
         width: 51%;
         height: 100%;
       /*  background: #222222;*/
-        background-image: linear-gradient(to bottom,#654a86,#534292);
-        background-color: #534292;
+/*        background-image: linear-gradient(to bottom,#654a86,#534292);
+        background-color: #534292;*/
+        background: #141414;
         z-index: 1000;
         -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
         -ms-transform: translateX(0);  /* IE 9 */
@@ -188,6 +192,9 @@ h1 {
         margin: 0;
         height: 100%;
         width: 100%;
+
+        padding: 0;
+
 
     }  
 
