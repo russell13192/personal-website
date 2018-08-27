@@ -9,5 +9,8 @@
 	background-image: url('assets/main-lander.jpg');
 	min-width: 100%;
 	height: 100vh;
-	filter: sepia([ <number> | <percentage> ])
+	/*filter: sepia([ <number> | <percentage> ])*/
+	background-color: #000;
+    color: #000;
+    -webkit-filter: grayscale(100%);
 }
